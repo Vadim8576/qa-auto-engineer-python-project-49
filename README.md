@@ -22,5 +22,5 @@ make install
 make brain-even  
 
 
-🎬 ***Demo Brain Even Game:***   
-[Открыть запись →](https://asciinema.org/a/HC63uWKpoOhi9sGD)
+***Demo:***  
+<a href="https://asciinema.org/a/HC63uWKpoOhi9sGD" target="_blank"><img src="https://asciinema.org/a/HC63uWKpoOhi9sGD.svg" /></a>
