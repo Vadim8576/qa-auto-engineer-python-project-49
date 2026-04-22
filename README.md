@@ -15,10 +15,10 @@
 
 
 
-Setup:
-make install
+***Setup:***  
+make install  
 
-run Brain even game:
-make brain-even
+***run Brain even game:***  
+make brain-even  
 
-https://asciinema.org/a/HC63uWKpoOhi9sGD
+<iframe src="https://asciinema.org/a/HC63uWKpoOhi9sGD/embed" width="100%" height="400" allowfullscreen></iframe>
