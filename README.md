@@ -21,4 +21,5 @@ make install
 ***run Brain even game:***  
 make brain-even  
 
-<iframe src="https://asciinema.org/a/HC63uWKpoOhi9sGD/embed" width="100%" height="400" allowfullscreen></iframe>
+
+![Demo:](https://asciinema.org/a/HC63uWKpoOhi9sGD)
