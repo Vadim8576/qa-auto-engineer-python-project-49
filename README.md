@@ -10,3 +10,15 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Vadim8576_qa-auto-engineer-python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Vadim8576_qa-auto-engineer-python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Vadim8576_qa-auto-engineer-python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Vadim8576_qa-auto-engineer-python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Vadim8576_qa-auto-engineer-python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Vadim8576_qa-auto-engineer-python-project-49)
+
+
+
+
+
+Setup:
+make install
+
+run Brain even game:
+make brain-even
+
+https://asciinema.org/a/HC63uWKpoOhi9sGD
