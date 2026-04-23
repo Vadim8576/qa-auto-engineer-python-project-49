@@ -25,11 +25,11 @@ def get_random_number(min_number, max_number):
 
 
 def get_operator():
-    operators = ['*', '-', '+']
-    min_number = 0
-    max_number = len(operators) - 1
-    index = get_random_number(min_number, max_number)
-    return operators[index]
+    OPERATORS = ['*', '-', '+']
+    MIN_NUMBER = 0
+    MAX_NUMBER = len(OPERATORS) - 1
+    index = get_random_number(MIN_NUMBER, MAX_NUMBER)
+    return OPERATORS[index]
 
 
 def get_result_expression(operator, a, b):

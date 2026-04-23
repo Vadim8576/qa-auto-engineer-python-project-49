@@ -6,41 +6,44 @@ from brain_games.utils.brain_utils import (
 
 
 def get_game_data():
-    min_progression_length = 5
-    max_progression_length = 10
-    progression_length = get_random_number(
-        min_progression_length,
-        max_progression_length
+    MIN_LENGTH = 5
+    MAX_LENGTH = 10
+    PROGRESSION_LENGTH = get_random_number(
+        MIN_LENGTH,
+        MAX_LENGTH
     )
     
-    min_start = 0
-    max_start = 20
-    progression_start = get_random_number(min_start, max_start)
+    MIN_START = 0
+    MAX_START = 20
+    PROGRESSION_START = get_random_number(MIN_START, MAX_START)
     
-    min_step = 2
-    max_step = 9
-    progression_step = get_random_number(min_step, max_step)
+    MIN_STEP = 2
+    MAX_STEP = 9
+    PROGRESSION_STEP = get_random_number(MIN_STEP, MAX_STEP)
     
-    min_position = 0
-    max_position = progression_length - 1
-    hidden_position = get_random_number(min_position, max_position)
+    MIN_HIDDEN_POSITION = 0
+    MAX_HIDDEN_POSITION = PROGRESSION_LENGTH - 1
+    HIDDEN_POSITION = get_random_number(
+        MIN_HIDDEN_POSITION,
+        MAX_HIDDEN_POSITION
+    )
     
     progression_arr = get_progression_arr(
-        progression_start,
-        progression_length,
-        progression_step,
-        hidden_position
+        PROGRESSION_START,
+        PROGRESSION_LENGTH,
+        PROGRESSION_STEP,
+        HIDDEN_POSITION
     )
 
     question = ' '.join(progression_arr)
-    correct_answer = progression_start + hidden_position * progression_step
+    correct_answer = PROGRESSION_START + HIDDEN_POSITION * PROGRESSION_STEP
    
     return {
-        question: question,
-        correct_answer: correct_answer
+        'question': question,
+        'correct_answer': correct_answer
     }
 
 
 def start_game():
-    task = 'What number is missing in the progression?'
-    game(get_game_data, task)
+    TASK = 'What number is missing in the progression?'
+    game(get_game_data, TASK)

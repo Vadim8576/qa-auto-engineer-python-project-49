@@ -13,9 +13,11 @@ def game(get_game_data, task):
     
     show_task(task)
 
-    number_of_rounds = 3
-    for _ in range(0, number_of_rounds):
-        question, correct_answer = get_game_data()
+    NUMBER_OF_ROUNDS = 3
+    for _ in range(0, NUMBER_OF_ROUNDS):
+        data = get_game_data()
+        question, correct_answer = data['question'], data['correct_answer']
+        
         print(f'Question: {question}')
 
         user_answer = user_input('Your answer: ')
