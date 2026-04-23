@@ -6,7 +6,6 @@ from brain_games.utils.brain_utils import (
 
 
 def game(get_game_data, task):
-
     welcome_user()
 
     user_name = user_input('May I have your name? ')
@@ -16,7 +15,6 @@ def game(get_game_data, task):
 
     number_of_rounds = 3
     for _ in range(0, number_of_rounds):
-
         question, correct_answer = get_game_data()
         print(f'Question: {question}')
 

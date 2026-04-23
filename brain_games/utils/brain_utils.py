@@ -1,3 +1,4 @@
+from math import sqrt
 from random import randint
 
 import prompt
@@ -55,3 +56,18 @@ def get_progression_arr(start, length, step, hidden_position):
         currentElement = start + i * step if i != hidden_position else '..'
         progression.append(str(currentElement))
     return progression
+
+
+def is_prime(n):
+    if n < 2:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+
+    sqrt_n = int(sqrt(n)) + 1
+    for i in range(3, sqrt_n, 2):
+        if n % i == 0:
+            return False
+    return True

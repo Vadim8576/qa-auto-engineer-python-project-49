@@ -21,10 +21,10 @@
 *2. Brain-calc*  
 *3. Brain-gcd*  
 *4. Brain-progression*  
-...  
+*5. Brain-prime*  
   
   
-
+  
 **Setup:**  
 make install  
   
@@ -64,3 +64,12 @@ make brain-progression
   
 **demo:**  
 <a href="https://asciinema.org/a/9CIhPdsn4BaMA0XQ" target="_blank"><img src="https://asciinema.org/a/9CIhPdsn4BaMA0XQ.svg" /></a>  
+  
+  
+**Brain-prime**  
+  
+*run:*  
+make brain-prime  
+  
+**demo:**  
+<a href="https://asciinema.org/a/Gqfbip8InSMU1Pem" target="_blank"><img src="https://asciinema.org/a/Gqfbip8InSMU1Pem.svg" /></a>  
