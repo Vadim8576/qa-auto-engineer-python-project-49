@@ -14,15 +14,36 @@
 
     
   
+
+***Games:***  
   
-
+*1. Brain-even*  
+*2. Brain-calc*  
+...  
+  
       
-***Setup:***  
+**Setup:**  
 make install  
-
-***run Brain even game:***  
+  
+  
+  
+***Brain-even***  
+  
+*run:*  
 make brain-even  
 
+**demo:**  
+<a href="https://asciinema.org/a/HC63uWKpoOhi9sGD" target="_blank"><img src="https://asciinema.org/a/HC63uWKpoOhi9sGD.svg" /></a>  
+    
+  
+**Brain-calc**  
+  
+*run:*  
+make brain-calc  
+  
+**demo:**  
+<a href="https://asciinema.org/a/pcRpTuiurkWCVVqu" target="_blank"><img src="https://asciinema.org/a/pcRpTuiurkWCVVqu.svg" /></a>  
+  
+  
 
-***Demo:***  
-<a href="https://asciinema.org/a/HC63uWKpoOhi9sGD" target="_blank"><img src="https://asciinema.org/a/HC63uWKpoOhi9sGD.svg" /></a>
+
