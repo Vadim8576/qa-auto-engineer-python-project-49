@@ -1,18 +1,18 @@
 from brain_games.utils.brain_even_utils import (
-    show_rules,
+    show_task,
     user_input,
     welcome_user,
 )
 
 
-def game(get_game_data, rules):
+def game(get_game_data, task):
 
     welcome_user()
 
     user_name = user_input('May I have your name? ')
     print(f'Hello, {user_name}!')
     
-    show_rules(rules)
+    show_task(task)
 
     number_of_rounds = 3
     for _ in range(0, number_of_rounds):

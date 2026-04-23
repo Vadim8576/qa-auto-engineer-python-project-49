@@ -11,8 +11,8 @@ def user_input(text):
     return prompt.string(text)
 
 
-def show_rules(rules):
-    print(rules)
+def show_task(task):
+    print(task)
 
 
 def is_even(n):
@@ -31,13 +31,19 @@ def get_operator():
     return operators[index]
 
 
-def get_result_expression(operator, value1, value2):
+def get_result_expression(operator, a, b):
     match operator:
         case '*':
-            return value1 * value2
+            return a * b
         case '-':
-            return value1 - value2
+            return a - b
         case '+':
-            return value1 + value2
+            return a + b
         case _:
             return 0
+
+
+def get_gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a

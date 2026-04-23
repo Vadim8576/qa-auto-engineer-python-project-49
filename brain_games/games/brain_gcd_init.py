@@ -1,8 +1,7 @@
 from brain_games.game import game
 from brain_games.utils.brain_even_utils import (
-    get_operator,
+    get_gcd,
     get_random_number,
-    get_result_expression,
 )
 
 
@@ -12,11 +11,9 @@ def get_game_data():
 
     value1 = get_random_number(min_number, max_number)
     value2 = get_random_number(min_number, max_number)
-    
-    operator = get_operator()
 
-    question = f'{value1} {operator} {value2}'
-    correct_answer = get_result_expression(operator, value1, value2)
+    question = f'{value1} {value2}'
+    correct_answer = get_gcd(value1, value2)
    
     return {
         question: question,
@@ -25,5 +22,5 @@ def get_game_data():
 
 
 def start_game():
-    task = 'What is the result of the expression?'
+    task = 'Find the greatest common divisor of given numbers.'
     game(get_game_data, task)

@@ -11,17 +11,19 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Vadim8576_qa-auto-engineer-python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Vadim8576_qa-auto-engineer-python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Vadim8576_qa-auto-engineer-python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Vadim8576_qa-auto-engineer-python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Vadim8576_qa-auto-engineer-python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Vadim8576_qa-auto-engineer-python-project-49)
-
+  
     
   
-
+  
 ***Games:***  
   
 *1. Brain-even*  
 *2. Brain-calc*  
+*3. Brain-gcd*  
 ...  
   
-      
+  
+
 **Setup:**  
 make install  
   
@@ -34,7 +36,7 @@ make brain-even
 
 **demo:**  
 <a href="https://asciinema.org/a/HC63uWKpoOhi9sGD" target="_blank"><img src="https://asciinema.org/a/HC63uWKpoOhi9sGD.svg" /></a>  
-    
+  
   
 **Brain-calc**  
   
@@ -45,5 +47,10 @@ make brain-calc
 <a href="https://asciinema.org/a/pcRpTuiurkWCVVqu" target="_blank"><img src="https://asciinema.org/a/pcRpTuiurkWCVVqu.svg" /></a>  
   
   
-
-
+**Brain-gcd**  
+  
+*run:*  
+make brain-gcd  
+  
+**demo:**  
+<a href="https://asciinema.org/a/27RMZCC0rY8gHxKR" target="_blank"><img src="https://asciinema.org/a/27RMZCC0rY8gHxKR.svg" /></a>  
