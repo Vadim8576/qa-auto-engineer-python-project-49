@@ -1,4 +1,4 @@
-from brain_games.utils.brain_even_utils import (
+from brain_games.utils.brain_utils import (
     show_task,
     user_input,
     welcome_user,

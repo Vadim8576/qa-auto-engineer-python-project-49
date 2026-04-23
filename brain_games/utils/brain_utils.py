@@ -47,3 +47,11 @@ def get_gcd(a, b):
     while b != 0:
         a, b = b, a % b
     return a
+
+
+def get_progression_arr(start, length, step, hidden_position):
+    progression = []
+    for i in range(length + 1):
+        currentElement = start + i * step if i != hidden_position else '..'
+        progression.append(str(currentElement))
+    return progression

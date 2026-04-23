@@ -1,5 +1,5 @@
 from brain_games.game import game
-from brain_games.utils.brain_even_utils import (
+from brain_games.utils.brain_utils import (
     get_gcd,
     get_random_number,
 )

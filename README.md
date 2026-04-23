@@ -20,6 +20,7 @@
 *1. Brain-even*  
 *2. Brain-calc*  
 *3. Brain-gcd*  
+*4. Brain-progression*  
 ...  
   
   
@@ -54,3 +55,12 @@ make brain-gcd
   
 **demo:**  
 <a href="https://asciinema.org/a/27RMZCC0rY8gHxKR" target="_blank"><img src="https://asciinema.org/a/27RMZCC0rY8gHxKR.svg" /></a>  
+  
+  
+**Brain-progression**  
+  
+*run:*  
+make brain-progression  
+  
+**demo:**  
+<a href="https://asciinema.org/a/9CIhPdsn4BaMA0XQ" target="_blank"><img src="https://asciinema.org/a/9CIhPdsn4BaMA0XQ.svg" /></a>  
