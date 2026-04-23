@@ -19,5 +19,5 @@ def get_game_data():
 
 
 def start_game():
-    TASK = 'Answer "yes" if the number is prime, otherwise answer "no".'
+    TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     game(get_game_data, TASK)
